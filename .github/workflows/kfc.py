@@ -1,0 +1,5 @@
+print("KFC 갓양념통다리 존맛 ...")
+print("KFC 갓양념통다리 존맛 ...")
+print("KFC 갓양념통다리 존맛 ...")
+print("KFC 갓양념통다리 존맛 ...")
+print("KFC 갓양념통다리 존맛 ...")
