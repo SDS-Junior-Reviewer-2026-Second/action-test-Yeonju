@@ -40,6 +40,12 @@ jobs:
           aws ses send-email \
           --from "mincoding@naver.com" \
           --destination "ToAddresses=sejin.choi@mincoding.co.kr" \
-          --message "Subject={Data=테스트 메일 전송},Body={Text={Data=왜 안보내지지}}"
+          --message "Subject={Data=테스트 메일 전송},Body={Text={Data=집에가고싶어요}}"
 
+      - run: mkdir staging && cp target/*.jar staging
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: Package
+          path: staging
           
